@@ -18,10 +18,16 @@ myFunction1()
 
 //3. Add an item 'Cheese Whiz'
 
-funtion myFunction2(){
-    
+function myFunction2(){
+    const addItem = document.createElement("li");
+    const addtextItem = document.createTextNode ("Cheese Whiz");
+    addItem.appendChild(addtextItem);
+    document.getElementById("list").appendChild(addItem);
 }
+myFunction2()
 
 //4. Clear the list and programmatically add items from the array ['protein powder', 'muscle milk', 'power bars']
+
+
 
 //5. Add the class 'important' to the muscle milk item.
