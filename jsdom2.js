@@ -1,16 +1,26 @@
 //1. Update the 'Coffee' item to say 'Fair Trade Coffee'
 
 function myFunction(){
-const element = document.getElementById ("list").children[1];
-const newNode = document.createTextNode("Fair Trade Coffee");
-element.replaceChild(newNode, element.childNodes[0]);
+    const element = document.getElementById ("list").children[1];
+    const newNode = document.createTextNode("Fair Trade Coffee");
+    element.replaceChild(newNode, element.childNodes[0]);
 }
 myFunction()
 
 
 //2. Remove 'Twinkies' from the list
 
+function myFunction1(){
+    const list = document.getElementById ("list");
+    list.removeChild (list.childNodes[7]);
+}
+myFunction1()
+
 //3. Add an item 'Cheese Whiz'
+
+funtion myFunction2(){
+    
+}
 
 //4. Clear the list and programmatically add items from the array ['protein powder', 'muscle milk', 'power bars']
 
